@@ -1,0 +1,26 @@
+* {
+    font-family: 'Space Grotesk', sans-serif;
+}
+.neubrutalism {
+    border: 3px solid #000;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.2s ease;
+}
+.neubrutalism:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 7px 7px 0px #000;
+}
+.skill-card {
+    transform: rotate(-2deg);
+}
+.skill-card:nth-child(even) {
+    transform: rotate(2deg);
+}
+.cursor-glow {
+    height: 300px;
+    width: 300px;
+    background: radial-gradient(circle, rgba(99,102,241,0.2) 0%, rgba(0,0,0,0) 70%);
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+}
